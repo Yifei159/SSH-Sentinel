@@ -7,11 +7,5 @@ This is a simple Python tool that monitors your active SSH sessions in real time
 - Monitors an SSH alias (configured in `config.py`).
 - Plays a sound (`/System/Library/Sounds/Hero.aiff`) when the connection is lost.
 
----
-
-## Project Structure
-SSH-Sentinel/
-├─ config.py      # Configuration constants
-├─ network.py     # Hostname resolution & SSH connection check
-├─ notifier.py    # Sound notifications
-└─ watcher.py     # Main program
+## Usage
+- Link to the server first and then run this tool locally.
